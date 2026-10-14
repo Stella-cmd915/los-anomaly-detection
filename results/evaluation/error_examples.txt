@@ -1,0 +1,28 @@
+MODEL: rare_component
+False Positives (line_id, score, raw_snippet)
+29 | 0.75 | 081109 205931 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4980916519894289629
+70 | 0.75 | 081109 213436 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-2827716238972737794
+176 | 0.75 | 081110 002337 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-1547954353065580372
+197 | 0.75 | 081110 011237 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_6996194389878584395
+
+False Negatives (line_id, score, raw_snippet)
+301 | 0.35 | 081110 081054 8108 WARN dfs.DataNode$DataXceiver: 10.251.90.239:50010:Got exception while serving blk_-8679916835272129336 to /10.250.15.198
+302 | 0.35 | 081110 081054 8108 WARN dfs.DataNode$DataXceiver: 10.251.90.239:50010:Got exception while serving blk_-8679916835272129336 to /10.250.15.198
+303 | 0.35 | 081110 081054 8108 WARN dfs.DataNode$DataXceiver: 10.251.90.239:50010:Got exception while serving blk_-8679916835272129336 to /10.250.15.198
+304 | 0.35 | 081110 081054 8108 WARN dfs.DataNode$DataXceiver: 10.251.90.239:50010:Got exception while serving blk_-8679916835272129336 to /10.250.15.198
+305 | 0.35 | 081110 081054 8108 WARN dfs.DataNode$DataXceiver: 10.251.90.239:50010:Got exception while serving blk_-8679916835272129336 to /10.250.15.198
+
+------------------------------------------------------------
+
+MODEL: simple_threshold
+False Positives (line_id, score, raw_snippet)
+78 | 1.0 | 081109 214043 2561 WARN dfs.DataNode$DataXceiver: 10.251.30.85:50010:Got exception while serving blk_-2918118818249673980 to /10.251.90.64:
+79 | 1.0 | 081109 214402 2677 WARN dfs.DataNode$DataXceiver: 10.251.126.255:50010:Got exception while serving blk_8376667364205250596 to /10.251.91.159
+81 | 1.0 | 081109 214529 2747 WARN dfs.DataNode$DataXceiver: 10.251.123.132:50010:Got exception while serving blk_3763728533434719668 to /10.251.38.214
+82 | 1.0 | 081109 214910 2848 WARN dfs.DataNode$DataXceiver: 10.250.13.188:50010:Got exception while serving blk_6241141267506413726 to /10.251.194.245
+84 | 1.0 | 081109 215136 2868 WARN dfs.DataNode$DataXceiver: 10.251.199.19:50010:Got exception while serving blk_8466246428293623262 to /10.251.106.37:
+
+False Negatives (line_id, score, raw_snippet)
+
+------------------------------------------------------------
+

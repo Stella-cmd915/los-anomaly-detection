@@ -1,0 +1,4 @@
+{"ts": "2026-02-17T17:16:30.476310Z", "raw": "Failed password for stel from 192.0.2.10 port 51234", "event": "FAILED_LOGIN", "fields": {"user": "stel", "ip": "192.0.2.10", "port": "51234"}, "score": 0.8999999999999999, "label": "anomaly"}
+{"ts": "2026-02-17T17:16:30.526625Z", "raw": "Accepted password for stel from 192.0.2.10 port 22", "event": "OK_LOGIN", "fields": {"user": "stel", "ip": "192.0.2.10", "port": "22"}, "score": 0.0, "label": "normal"}
+{"ts": "2026-02-17T17:16:30.576850Z", "raw": "Connection closed by 203.0.113.5 port 60210", "event": "CONN_CLOSED", "fields": {"ip": "203.0.113.5", "port": "60210"}, "score": 0.2, "label": "normal"}
+{"ts": "2026-02-17T17:16:30.626959Z", "raw": "Failed password for alex from 198.51.100.7 port 55123", "event": "FAILED_LOGIN", "fields": {"user": "alex", "ip": "198.51.100.7", "port": "55123"}, "score": 0.8999999999999999, "label": "anomaly"}
